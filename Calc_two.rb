@@ -14,7 +14,7 @@ def multiply(first, second)
 end
 
 def divide(first, second)
-  if second != 0
+  if second == 0
     nil
   else
     answer = first / second
