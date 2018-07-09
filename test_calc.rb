@@ -23,7 +23,15 @@ class Calculator < Minitest::Test
     assert_equal(4, divide(8, 2))
   end
 
-  def test_if_division_function_exists
+  def test_if_division_by_zero_fails
+    assert_equal(4, divide(8, 0))
+  end
+
+  def test_if_division_by_zero_cannot_work
+    assert_equal(4, divide(8, 0))
+  end
+
+  def test_if_division_by_zero_gets_nil
     assert_equal(4, divide(8, 0))
   end
 
