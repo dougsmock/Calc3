@@ -33,8 +33,46 @@ class Calculator < Minitest::Test
   end
 
   def test_if_string_entered_to_addition
-    assert_equal(20, addition("", 14))
+    assert_equal(40, addition("", 14))
   end
+  #
+  # def test_if_string_entered_to_addition
+  #   assert_equal(40, addition(14, ""))
+  # end
+  #
+  # def test_if_array_entered_to_addition
+  #   assert_equal(34, addition([], 32))
+  # end
+
+  # def test_if_array_entered_to_addition
+  #   assert_equal(34, addition(32, []))
+  # end
+
+  # def test_if_string_entered_to_subtraction
+  #   assert_equal(40, addition("", 14))
+  # end
+  #
+  # def test_if_string_entered_to_subtraction
+  #   assert_equal(40, addition(14, ""))
+  # end
+  #
+  # def test_if_array_entered_to_subtraction
+  #   assert_equal(34, addition([], 32))
+  # end
+  #
+    # def test_if_array_entered_to_subtraction
+    #   assert_equal(34, addition(32, []))
+    # end
+
+
+
+
+
+
+
+
+
+
 
 
 

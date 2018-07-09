@@ -1,5 +1,11 @@
 def addition(first, second)
-  answer = first + second
+  #booleans to account for strings or arrays
+  if (first == ("" || [])) || (second == ("" || []))
+    nil
+  else
+    answer = first + second
+  end
+
   answer
 end
 
