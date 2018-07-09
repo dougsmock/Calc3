@@ -16,7 +16,7 @@ class Calculator < Minitest::Test
   end
 
   def test_multiply_answer
-    assert_equal(2, multiply(8, 6))
+    assert_equal(48, multiply(8, 6))
   end
 
 
