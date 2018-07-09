@@ -1,4 +1,4 @@
-def add(answer)
+def addition(first, second)
   answer = first + second
   answer
 end
