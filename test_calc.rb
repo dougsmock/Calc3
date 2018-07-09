@@ -28,25 +28,55 @@ class Calculator < Minitest::Test
   # end
   #
 
-  def test_if_division_by_zero_gets_nil
-    assert_equal(nil, divide(8, 0))
-  end
-
-  def test_if_string_entered_to_addition
-    assert_equal(40, addition("", 14))
-  end
+  # def test_if_division_by_zero_gets_nil
+  #   assert_equal(nil, divide(8, 0))
+  # end
   #
+  # def test_if_string_entered_to_addition
+  #   assert_equal(40, addition("", 14))
+  # end
+  # #
   # def test_if_string_entered_to_addition
   #   assert_equal(40, addition(14, ""))
   # end
-  #
+  # #
   # def test_if_array_entered_to_addition
   #   assert_equal(34, addition([], 32))
   # end
-
+  #
   # def test_if_array_entered_to_addition
   #   assert_equal(34, addition(32, []))
   # end
+  #
+
+
+
+
+  def test_string_entered_equals_nil
+    assert_equal(nil, addition("", 30))
+  end
+
+  def test_string_entered_equals_nil_2
+    assert_equal(nil, addition(30, ""))
+  end
+
+  def test_arrays_equal_nil
+    assert_equal(nil, addition([], 30))
+  end
+
+  def test_arrays_equal_nil2
+    assert_equal(nil, addition(30, []))
+  end
+
+
+
+
+
+
+
+
+
+
 
   # def test_if_string_entered_to_subtraction
   #   assert_equal(40, addition("", 14))

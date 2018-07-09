@@ -1,11 +1,12 @@
 def addition(first, second)
   #booleans to account for strings or arrays
-  if (first == ("" || [])) || (second == ("" || []))
+  if (first == "") || (second == "")
+    nil
+  elsif (first == []) || (second == [])
     nil
   else
     answer = first + second
   end
-
   answer
 end
 
