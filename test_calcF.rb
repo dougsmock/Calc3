@@ -1,5 +1,5 @@
 require "minitest/autorun"
-require_relative "Calc_two.rb"
+require_relative "Calc_twoF.rb"
 
 class Calculator < Minitest::Test
 
@@ -8,7 +8,7 @@ class Calculator < Minitest::Test
   # end
 
   def test_addition_answer
-    assert_equal(14, addition(8, 6))
+    assert_equal(14.5, addition(8.0, 6.5))
   end
 
   def test_subtract_answer
@@ -19,24 +19,21 @@ class Calculator < Minitest::Test
     assert_equal(48, multiply(8, 6))
   end
 
-  # def test_if_division_function_exists
-  #   assert_equal(4, divide(8, 2))
-  # end
+  def test_division_answer
+    assert_equal(4.5, divide(9.0, 2))
+  end
 
   # def test_if_division_by_zero_fails
   #   assert_equal(4, divide(8, 0))
   # end
   #
+  # def test_if_division_by_zero_cannot_work
+  #   assert_equal(4, divide(8, 0))
+  # end
 
   def test_if_division_by_zero_gets_nil
     assert_equal(nil, divide(8, 0))
   end
-
-  def test_if_string_entered_to_addition
-    assert_equal(20, addition("", 14))
-  end
-
-
 
 
 end
