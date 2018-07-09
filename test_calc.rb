@@ -11,7 +11,9 @@ class Calculator < Minitest::Test
     assert_equal(14, addition(8, 6))
   end
 
-
+  def subtraction_answer
+    assert_equal(-2, subtraction(8, 6))
+  end
 
 
 end
