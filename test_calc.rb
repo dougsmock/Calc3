@@ -19,5 +19,13 @@ class Calculator < Minitest::Test
     assert_equal(48, multiply(8, 6))
   end
 
+  def test_if_division_function_exists
+    assert_equal(4, divide(8, 2))
+  end
+
+  def test_if_division_function_exists
+    assert_equal(4, divide(8, 0))
+  end
+
 
 end
