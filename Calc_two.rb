@@ -33,10 +33,13 @@ def multiply(first, second)
 end
 
 def divide(first, second)
-  if second == 0
+  if (first == "") || (second == "")
     nil
-  else
-    answer = first / second
+  elsif (first == []) || (second == [])
+    nil
+  elsif second == 0
+    nil
+  else answer = first / second
   end
   answer
 end
