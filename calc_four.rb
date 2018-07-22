@@ -16,7 +16,7 @@ def subtraction(first, second)
   elsif (first == []) || (second == [])
     nil
   else
-  answer = first - second
+    answer = first - second
   end
   answer
 end
@@ -27,7 +27,7 @@ def multiply(first, second)
   elsif (first == []) || (second == [])
     nil
   else
-  answer = first * second
+    answer = first * second
   end
   answer
 end
@@ -39,23 +39,8 @@ def divide(first, second)
     nil
   elsif second == 0
     nil
-  else answer = first / second
+  else
+    answer = first / second
   end
   answer
-end
-
-
-
-
-
-
-
-
-
-
-
-def stringer(stuff)
-  if stuff.include?("abc")
-    true
-  end
 end

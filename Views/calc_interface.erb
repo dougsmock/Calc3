@@ -1,0 +1,37 @@
+<html>
+<body>
+
+<div class="tophead">
+  <h3>Calculator</h3>
+</div>
+
+<div class ="calcbox">
+  <form method ="post" action ="calculate">
+    <div class ="numbers">
+      <input type="text" name="first" value="<%=first%>" required autofocus="">
+      <input type="text" name="second" value="<%=second%>" required>
+    </div>
+</div>
+
+<div class="ops">
+			<input type="radio" name="operator" value="add">Add
+  		<input type="radio" name="operator" value="subtract">Subtract
+ 			<input type="radio" name="operator" value="multiply">Multiply
+			<input type="radio" name="operator" value="divide">Divide
+</div>
+
+
+<div class ="submit">
+<br><br>
+  <input type="submit" value="Calculate!" onclick>
+</div>
+
+<div class="clear">
+  <br><br>
+  <input type="submit" value="Clear" onclick>
+</form>
+</body>
+</html>
+
+
+<!-- How do you refresh -->

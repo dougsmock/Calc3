@@ -1,0 +1,38 @@
+<link href=“/css/layout.css” rel=“stylesheet”>
+
+<style>
+.mainbox {
+  background-color: #033F90;
+  padding: 0px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  border: 4px #4CAF50;
+  border-radius: 16px;
+  border-style: ridge;
+}
+</style>
+
+<style>
+.number {
+  font-size: 16px; color: royalblue; font-family: Verdana;
+}
+</style>
+
+<style>
+.readout {
+  font-size: 24px; color: royalblue; font-family: Verdana;
+}
+</style>
+
+<style>
+.textbox {
+  background-color: gray;
+}
+</style>
+
+
+
+.radiobutton {
+  color: red;
+}
